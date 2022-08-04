@@ -4,6 +4,7 @@ html {
 
 body {
   width: 100vw;
+  font-family: sans-serif;
 }
 
 .desktop {
@@ -25,9 +26,41 @@ header ul {
 }
 
 header ul img {
-  height: 2.5rem;
+  height: 2.3rem;
 }
 
 img.logo {
-  height: 3rem;
+  height: 2.7rem;
+}
+
+/* banner */
+
+.banner-text {
+  background-color: hsl(0, 0%, 80%);
+  color: hsl(0, 0%, 25%);
+  padding: 2rem;
+  padding-left: 1rem;
+}
+
+.banner-text h1 {
+  font-size: 2.3rem;
+  font-weight: 800;
+  padding-bottom: 2rem;
+}
+
+.banner-text p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding-bottom: 1.5rem;
+}
+
+.banner-text a {
+  text-align: center;
+  display: block;
+  font-size: 1.3rem;
+  color: aliceblue;
+  text-decoration: none;
+  background-color: hsl(0, 0%, 55%);
+  padding: 0.6rem;
+  font-weight: 600;
 }
