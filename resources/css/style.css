@@ -1,1 +1,33 @@
+html {
+  font-size: 16px;
+}
 
+body {
+  width: 100vw;
+}
+
+.desktop {
+  display: none;
+}
+
+/* header */
+
+header {
+  max-width: 100%;
+  height: 64px;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+}
+
+header ul img {
+  height: 2.5rem;
+}
+
+img.logo {
+  height: 3rem;
+}
