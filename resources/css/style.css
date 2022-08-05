@@ -64,3 +64,34 @@ img.logo {
   padding: 0.6rem;
   font-weight: 600;
 }
+
+/* information */
+
+.events > div {
+  padding: 1rem;
+}
+
+.events > div:last-child {
+  padding-bottom: 0;
+  margin-bottom: 2rem;
+}
+
+.events .details {
+  padding-top: 1.5rem;
+  padding-left: 1rem;
+  color: hsl(0, 0%, 35%);
+  font-size: 1.2rem;
+}
+
+.details h3 {
+  font-size: 1.5rem;
+  margin-bottom: 3px;
+}
+
+.details a {
+  display: block;
+  text-decoration: none;
+  font-size: 1.1rem;
+  margin-top: 5px;
+  color: hsl(240, 80%, 65%);
+}
