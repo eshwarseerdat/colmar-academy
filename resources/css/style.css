@@ -4,7 +4,8 @@ html {
 
 body {
   width: 100vw;
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: hsl(0, 0%, 28%);
 }
 
 .desktop {
@@ -37,14 +38,13 @@ img.logo {
 
 .banner-text {
   background-color: hsl(0, 0%, 80%);
-  color: hsl(0, 0%, 25%);
   padding: 2rem;
   padding-left: 1rem;
 }
 
 .banner-text h1 {
   font-size: 2.3rem;
-  font-weight: 800;
+  font-weight: 900;
   padding-bottom: 2rem;
 }
 
@@ -57,10 +57,10 @@ img.logo {
 .banner-text a {
   text-align: center;
   display: block;
-  font-size: 1.3rem;
-  color: aliceblue;
+  font-size: 1.4rem;
+  color: hsl(0, 0%, 95%);
   text-decoration: none;
-  background-color: hsl(0, 0%, 55%);
+  background-color: hsl(0, 0%, 58%);
   padding: 0.6rem;
   font-weight: 600;
 }
@@ -98,10 +98,6 @@ img.logo {
 
 /* Courses */
 
-.courses {
-  color: hsl(0, 0%, 28%);
-}
-
 .courses h2 {
   text-align: center;
   padding-top: 1rem;
@@ -127,8 +123,18 @@ img.logo {
 
 .thesis h2 {
   text-align: center;
-  color: hsl(0, 0%, 28%);
+  font-weight: 500;
   font-size: 2.5rem;
   margin-top: 2rem;
   margin-bottom: 1rem;
+}
+
+.video > video {
+  margin-bottom: 1.5rem;
+}
+
+/* footer */
+
+footer {
+  padding: 1rem 2rem;
 }
