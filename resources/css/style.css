@@ -122,3 +122,13 @@ img.logo {
   margin: 0.5rem auto;
   background-color: hsl(0, 0%, 85%);
 }
+
+/* thesis */
+
+.thesis h2 {
+  text-align: center;
+  color: hsl(0, 0%, 28%);
+  font-size: 2.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
