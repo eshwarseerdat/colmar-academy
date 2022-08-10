@@ -36,8 +36,11 @@ img.logo {
 
 /* banner */
 
-.banner-text {
+.banner {
   background-color: hsl(0, 0%, 80%);
+}
+
+.banner-text {
   padding: 2rem;
   padding-left: 1rem;
 }
@@ -45,13 +48,13 @@ img.logo {
 .banner-text h1 {
   font-size: 2.3rem;
   font-weight: 900;
-  padding-bottom: 2rem;
 }
 
 .banner-text p {
   font-size: 1.5rem;
   font-weight: 600;
-  padding-bottom: 1.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .banner-text a {
@@ -61,7 +64,7 @@ img.logo {
   color: hsl(0, 0%, 95%);
   text-decoration: none;
   background-color: hsl(0, 0%, 58%);
-  padding: 0.6rem;
+  padding: 0.5rem;
   font-weight: 600;
 }
 
@@ -193,5 +196,37 @@ footer {
   nav a {
     text-decoration: none;
     color: hsl(0, 0%, 28%);
+  }
+
+  .banner {
+    display: flex;
+    /* max-width: 1024px; */
+  }
+
+  .banner img {
+    width: 60%;
+    /* height: auto; */
+    padding: 2rem 1.5rem;
+  }
+
+  .banner-text {
+    align-self: center;
+    width: 400px;
+    padding: 0;
+    display: inline-block;
+    width: 25%;
+  }
+
+  .banner-text h1 {
+    font-size: 3rem;
+  }
+
+  .banner-text a {
+    background-color: hsl(0, 0%, 28%);
+    font-weight: normal;
+  }
+
+  .banner-text a:hover {
+    background-color: hsl(0, 0%, 35%);
   }
 }
