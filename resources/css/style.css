@@ -138,3 +138,60 @@ img.logo {
 footer {
   padding: 1rem 2rem;
 }
+
+/* Desktop */
+
+@media only screen and (min-width: 1024px) {
+  .mobile {
+    display: none;
+  }
+
+  .desktop {
+    display: block;
+  }
+
+  header .desktop {
+    height: 4rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  header .logo {
+    display: flex;
+    align-items: center;
+  }
+
+  header .logo p {
+    font-size: 2rem;
+    font-weight: 200;
+  }
+
+  header .logo span {
+    font-weight: bold;
+  }
+
+  header .logo img {
+    width: 2.5rem;
+  }
+
+  nav ul {
+    justify-content: flex-end;
+  }
+
+  nav li {
+    margin-right: 1rem;
+  }
+
+  nav li:last-of-type {
+    margin-right: 0;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: hsl(0, 0%, 28%);
+  }
+}
