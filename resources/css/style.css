@@ -266,4 +266,31 @@ footer {
     background-color: hsl(0, 0%, 80%);
     padding: 1.5rem;
   }
+
+  hr {
+    display: none;
+  }
+
+  .courses {
+    background-color: hsl(0, 0%, 90%);
+    padding: 2rem 4.5rem;
+  }
+
+  .courses article.course-list {
+    display: grid;
+    grid-template: auto / repeat(3, 1fr);
+    gap: 2rem;
+  }
+
+  .courses .course-list > div {
+    background-color: hsl(0, 0%, 100%);
+  }
+
+  .courses .course-list .description {
+    padding: 1rem 1rem;
+  }
+
+  .course-list .description p {
+    margin: 0.5rem auto;
+  }
 }
