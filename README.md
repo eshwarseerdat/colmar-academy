@@ -1,3 +1,3 @@
 # colmar-academy
 
-<a href="https://eshwarseerdat.github.io/colmar-academy/">View Site</a>
+<a href="https://eshwarseerdat.github.io/colmar-academy/" target="_blank">View Site</a>
